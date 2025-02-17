@@ -10,7 +10,7 @@ This project uses eBPF and Go to drop all packets on a specified network interfa
 
 ## Installation & Usage
 
-### 1. Clone the repo
+### 1. Clone
 ```sh
 git clone https://github.com/yourusername/ebpf-drop-packets.git
 cd ebpf-drop-packets
@@ -20,5 +20,4 @@ cd ebpf-drop-packets
 ```sh
 go run main.go -iface eth0
 ```
-
 Replace eth0 with your interface.
