@@ -21,7 +21,7 @@ int count_flow(struct __sk_buff *skb) {
     struct flow_key key = {0};
     __u64 *count, one = 1;
 
-    // Extract flow data (for simplicity, using a basic 5-tuple: src_ip, dst_ip, src_port, dst_port, protocol)
+    // TODO below tuple feelz not right, gonna refactor it smth better later, hopefully.
     key.src_ip = skb->remote_ip4;
     key.dst_ip = skb->local_ip4;
     key.src_port = skb->local_port;
