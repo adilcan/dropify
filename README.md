@@ -1,5 +1,7 @@
 # Dropify - eBPF Packet Dropper
 
+TODO: Forgot to add the bpf loader for the ((current)) main go lol.
+
 Please note that this project is still work in progress, and it shouldn't be used in a production environment.
 
 This project uses eBPF and Go to drop TODO packets on a specified network interface using Traffic Control (TC).
