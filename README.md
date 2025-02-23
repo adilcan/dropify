@@ -2,7 +2,7 @@
 
 TODO: Forgot to add the bpf loader for the ((current)) main go lol.
 
-** THIS IS AN EXPERIMENTAL PROJECT. NEVER USE IT ON YOUR PROD ENVS. **
+**THIS IS AN EXPERIMENTAL PROJECT. NEVER USE IT ON YOUR PROD OR NEVER RELY ON IT!**
 
 This project uses eBPF and Go to drop TODO packets on a specified network interface using Traffic Control (TC).
 
